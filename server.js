@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 app.get('/htmlone.html',function(req, res){
     
-    res.sendFile(path.join(_dirname, 'ui', 'htmlone.html'));
+    res.sendFile(path.join(__dirname, 'ui', 'htmlone.html'));
     
 });
 
