@@ -1,1 +1,11 @@
-console.log('Loaded!');
+function change()
+{
+    
+    var a;
+    a=getElementById('name').value;
+    getElementById('changed').value=a
+    
+    
+    
+    
+}
